@@ -1,0 +1,54 @@
+html{
+    font-size: 62,5%; /* tamanho da fonte */
+}
+ 
+body{
+    font-family: "Public Sans", sans-serif; 
+    font-weight: 400; /*gogle fonts*/
+}
+
+.header{
+    background-color: aqua;/* cor de fundo*/
+    display: flex; /* nome do lado */
+    justify-content: space-between; /*espaco para o lado */
+    align-items: center; /*centralizar o texto */
+    padding: 45px; 
+}
+
+.logo{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo h1{
+   font-size: 2rem;
+   margin-left: 5px;
+}
+
+.menu{
+    background-color: rgb(63, 188, 219);
+    display: flex; /*palavras do lado */
+    align-items: center; /*centro*/
+}
+
+.menu li a {
+  padding: 10px 5px;  /*espaço entre palavras*/
+  transition: 0.3s ease-in-out; 
+}
+
+.menu li a:hover { /* hover movimento de cor*/
+    background-color: rgb(62, 255, 91);
+    color: aliceblue;
+}
+
+.menu li a.btn{
+    background-color: #25bb00;/*cor de botao*/
+    border-radius: 10px; /*bordas de uma imagens*/
+    color: white;/*cor do texto*/
+    margin-left: 2rem; /*espaco*/
+    padding: 10px 20px; /*espaço lateral  */
+}
+
+ 

@@ -1,0 +1,140 @@
+
+/* painel 2 */
+@media(max-width:992px){
+    .paineltexto{
+       padding: 153px 25px;
+    }
+    
+    .paineltexto p{
+        width: 100%;
+    }
+
+}
+/* painel 2 */
+
+
+/* rodape  */
+
+@media(max-width:768px) {
+
+    /* contatos */
+    .contatos{
+        background-image:none ;
+        background-color: #c0944c;
+    }
+
+    .contatos .texto{
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translatey(-50%);
+    }
+
+    .contatos h2{
+        margin-bottom:42px ;
+    }
+     /* contatos */
+}
+
+/* rodape  */
+
+
+
+/* ladrilho imagens */
+@media (max-width: 720px) {
+    .quadros .grande,
+    .quadros .medio{
+        width: 100%;
+    }   
+
+    .quadros .pequeno,
+    .quadros .grao{
+        width: 50%;
+    }
+
+    .rodape{
+        text-align: center;
+        background-image:none ;
+        background-color :rgb(12, 12, 12);
+    }
+
+    .rodape.logo{
+     display: block; 
+     margin-bottom: 128px;  /* obcerva logo */
+    }
+
+    .rodape ul{
+        display: block;
+        width:100% ;
+        margin-bottom: 128px;
+    }
+
+    .rodape ul li{
+        display: block;
+    }
+
+    .rodape .redes-sociais{
+        float: none;
+        margin-bottom: 28px;
+    }
+
+
+        
+
+}
+
+/* ladrilho imagens */
+
+
+
+     /* menu */
+@media(max-width:425px) {
+
+    .cabecalho .logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav{
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li{
+        display: block; 
+    }
+
+    .cabecalho nav ul li a{
+        width: 100%;
+        display:block;
+    }
+    /* fim menu responsive */
+
+    /* painel */
+   .painel h2{
+    font-size: 2.5rem;
+     }
+
+    .paineltexto h2 {
+     font-size: 3rem;
+     }
+
+    .paineltexto p {
+     font-size: 1.5rem;
+    }
+    }
+
+    @media(max-width:375px) {
+    .quadros .pequeno,
+    .quadros .grao{
+        width: 100%;
+    }  
+}
+/* fim painel e imagens */
+    
+    
+
+
+
